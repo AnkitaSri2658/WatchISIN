@@ -1,0 +1,37 @@
+.content {
+  padding: 20px;
+}
+
+.price {
+  color: var(--color-primary-green3);
+}
+
+.button {
+  padding: 15px 50px;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+  background: var(--color-primary-red2);
+  color: var(--color-foreground3);
+}
+.button.blueBtn{
+    background: var(--color-primary-blue2);
+}
+.button:hover,
+.button:active {
+  background: var(--color-primary-red1);
+}
+.button.blueBtn:hover,
+.button.blueBtn:active {
+  background: var(--color-primary-blue3);
+}
+
+@media screen and (max-width: 520px) {
+    h1{
+        font-size: 18px;
+    }
+    .price {
+      font-size:16px; 
+    }
+    p{font-size: 14px;}
+  }
